@@ -10,12 +10,11 @@ url: "http://www.jack003.com"
 
 # author
 author:
-  name: 'Jack'
-  first_name: 'Jia'
-  last_name: 'Kun'
+  name: 'PengZhaoqing'
   email: 'me@jack003.com'
-  facebook_username: 'jiakunnj'
-  github_username: 'Jack614'
+  facebook_username: 'hellozhaoqing'
+  github_username: 'PENGZhaoqing'
+  twitter_username: 'ppp8300885'
   head_img: 'static/img/landing/Jack.jpg'
   desc: 'I am a Python engineer with website development, automation Ops and writing scripts experience. Life is a continuous learning process, so work makes me more rigorous, travel makes my life more colorful. I can make lots of friends when I coding and travel.'
 
@@ -72,13 +71,6 @@ donate:
   wechat: 'static/img/pay/wechat.png'
   alipay: 'static/img/pay/alipay.png'
 
-# comment
-changyan:
-  # appid: cysfY7ULn
-  # conf: prod_861928934cecb7a18e15bedaed9dae29
-disqus:
-  name: jalpc
-  public_key: tj2MPaNlHMONwTH5bGDNSXyaBpW7q282MeUzh5CwcjJerNhK8Kxk3aWo7IckzTX7
 
 # share
 bshare:
@@ -101,3 +93,4 @@ markdown: kramdown
 kramdown:
   input: GFM
   syntax_highlighter: rouge
+
