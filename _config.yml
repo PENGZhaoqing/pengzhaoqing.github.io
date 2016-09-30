@@ -78,19 +78,19 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : "bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
-  email            :
+  name             : "Peng Zhaoqing"
+  avatar           : "profie.jpg"
+  bio              : "IT suffering"
+  location         : "Beijing, China"
+  email            : "ppp8300885@gmail.com"
   uri              :
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
-  facebook         :
+  facebook         : hellozhaoqing
   foursquare       :
-  github           :
+  github           : PENGZhaoqing
   google_plus      :
   keybase          :
   instagram        :
@@ -98,10 +98,10 @@ author:
   linkedin         :
   pinterest        :
   soundcloud       :
-  stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
+  stackoverflow    : 6080869/zhaoqing
   steam            :
   tumblr           :
-  twitter          :
+  twitter          : ppp8300885
   vine             :
   weibo            :
   xing             :
