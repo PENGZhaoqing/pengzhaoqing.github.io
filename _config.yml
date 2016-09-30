@@ -1,8 +1,8 @@
 # Welcome to Jekyll!
 
 # Website settings
-title: "ZQ's blog"
-description: "zhaoqing's blog,use Jekyll and github pages."
+title: "Zhaoqing here"
+description: "Zhaoqing's blog,use Jekyll and github pages."
 keywords: "zhaoqing,Jekyll,blog,,github,gh-pages"
 baseurl: "/"
 url: "http://www.jack003.com"
@@ -44,17 +44,6 @@ sections:
     tpl: 'projects.html'
     css: 'project'
 
-  - id: 'blog'
-    i18n: 'nav.blog'
-    name: 'Blog'
-    tpl: 'blog.html'
-    css: 'testimonials navy-section'
-
-  - id: 'links'
-    i18n: 'nav.link'
-    name: 'Links'
-    tpl: 'links.html'
-    css: 'contact'
 
 # localization
 languages:
@@ -76,14 +65,6 @@ donate:
 bshare:
   uuid: 513f778e-a8f7-4c20-9ec2-d29cc2328d75
 
-# baidu analytics
-ba:
-  uuid: 317acca9ef9255b934e46371e471431d
-
-# google analytics
-ga:
-  id: UA-73784599-1
-
 # Build settings
 encoding: "utf-8"
 
@@ -94,3 +75,6 @@ kramdown:
   input: GFM
   syntax_highlighter: rouge
 
+sass:
+  sass_dir: _sass
+  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
