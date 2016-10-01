@@ -1,3 +1,5 @@
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+
 <div class="container" id="i18_projects">
     <div class="row m-b-lg">
         <div class="col-lg-12 text-center">
@@ -5,7 +7,8 @@
             <h1><span data-i18n="projects.my_projects">My Projects</span></h1>
         </div>
     </div>
-    <div class="row text-center">
+    <br>
+    <div class="row text-center" style="margin-top: 40px">
         {% for project in site.data.projects %}
         {% assign loopindex = forloop.index | modulo: 2 %}
         {% if forloop.last %}
@@ -22,7 +25,8 @@
                              class="img-responsive img-circle align-center" alt="">
                         <h5><a href="{{ project.url | prepend: 'https://github.com' }}" target="blank"><span
                                 class="navy">{{ project.name }}</span></a></h5>
-                        <p class="text-muted"><span data-i18n="projects.{{ project.i18n }}">{{ project.desc }}</span></p>
+                        <p class="small text-muted"><span
+                                data-i18n="projects.{{ project.i18n }}">{{ project.desc }}</span></p>
                         <ul class="list-inline">
                             <li>
                                 <a class="github-button" href="{{ project.url | prepend: 'https://github.com'}}"
@@ -47,3 +51,5 @@
         </div>
     </div>
 </div>
+
+

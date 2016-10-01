@@ -1,55 +1,55 @@
 - name:
-    detail: Nextcode
+    detail: Unit. of Chinese Academy of Sciences
     i18n: nextcode
   desc:
-    detail: Now I am in Nextcode and develop website with Python code for genetic analysis.
+    detail: Currently focusing on researching in the field of Multiagent Cooperation with Deep Reinforcement Learning
     i18n: nextcode_des
   date:
-    detail: Apr. 2016
+    detail: Sep. 2016
     i18n: nextcode_date
   job:
-    detail: Python Developer
+    detail: Computer sciences (Master)
     i18n: nextcode_job
   icon: fa-plus-square
 
 - name:
-    detail: Netease Game
+    detail: Tohoku University (Japan)
     i18n: netease
   desc:
-    detail: In Netease game, I learned game service system and use Python code for ops.
+    detail: Sponserd by Jasso Schoolarship offered by Japanese government, I did researches in fields of artificial intelligence (Mulit-agent) and IoT at Kinoshita Lab of Tohoku University
     i18n: netease_des
   date:
-    detail: Jun. 2015
+    detail: Oct. 2014
     i18n: nextcode_date
   job:
-    detail: Dev Ops
+    detail: Computer sciences (Exchange Student)
     i18n: netease_job
   icon: fa-gamepad
 
 - name:
-    detail: Ucloud
+    detail: Changing Majors
     i18n: ucloud
   desc:
-    detail: In ucloud, I started to deal with servers and Linux system and use shell scripts to manage massive server.
+    detail: I transformed my major to Automation, which is always the best in Northeastern University.
     i18n: ucloud_des
   date:
     detail: Sep. 2013
     i18n: ucloud_date
   job:
-    detail: Dev Ops
+    detail: Automation (Undergraduate)
     i18n: ucloud_job
   icon: fa-cloud
 
 - name:
-    detail: Graduation
+    detail: Northeastern University
     i18n: college
   desc:
-    detail: At July 2013,I graduated from college and started my IT technology tour.
+    detail: At July 2012, I was admiitd to Northeastern Univseristy as a mechanical engineering student.
     i18n: college_des
   date:
-    detail: Jul. 2013
+    detail: Jul. 2012
     i18n: college_date
   job:
-    detail: Student
+    detail: Mechanical Engineering (Undergraduate)
     i18n: college_job
   icon: fa-book
