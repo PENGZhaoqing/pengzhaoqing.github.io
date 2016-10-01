@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: archive
 permalink: /contact
 title: "About"
 ---

@@ -1,6 +1,5 @@
 ---
-layout: post
-title: Guestbook
+layout: archive
 comments: true
 permalink: /guestbook
 thread: 1
