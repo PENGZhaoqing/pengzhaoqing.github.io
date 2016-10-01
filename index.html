@@ -1,6 +1,6 @@
 ---
-layout: archive
-author_profile: true
+layout: splash
+author_profile: false
 ---
 
 <script style="stylesheets">
@@ -12,8 +12,8 @@ author_profile: true
 
 {% for section in site.sections %}
 {% assign loopindex = forloop.index | modulo: 2 %}
-<section id="{{ section.id }}" class="features {% if loopindex != 1 %} gray-section {% endif %} {{ section.css }}"
-         style="margin-top: 0px;">
+<section id="{{ section.id }}" class="{% if loopindex != 1 %} gray-section {% endif %}"
+         style="padding: 10px;  width: 100%;">
     {% include sections/{{section.tpl}} %}
 </section>
 {% endfor %}

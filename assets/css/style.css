@@ -1,3 +1,14 @@
+.features-block {
+  margin-top: 40px;
+}
+
+.navy-line {
+  width: 100px;
+  height: 1px;
+  margin: 60px auto 0;
+  border-bottom: 2px solid #3385FF;
+}
+
 /* New Timeline style */
 .vertical-container {
   /* this class is used to give a max-width to the element it is applied to, and center it horizontally when it reaches that max-width */
@@ -63,7 +74,7 @@
 }
 .vertical-timeline-block {
   position: relative;
-  margin: 2em 0;
+  margin: 10px 0;
 }
 .vertical-timeline-block:after {
   content: "";
@@ -78,7 +89,7 @@
 }
 @media only screen and (min-width: 1170px) {
   .center-orientation .vertical-timeline-block {
-    margin: 4em 0;
+    margin: 2em 0;
   }
   .center-orientation .vertical-timeline-block:first-child {
     margin-top: 0;
@@ -175,7 +186,7 @@
 @media only screen and (min-width: 1170px) {
   .center-orientation .vertical-timeline-content {
     margin-left: 0;
-    padding: 1.6em;
+    padding: 16px 16px;
     width: 45%;
   }
   .center-orientation .vertical-timeline-content::before {
@@ -216,3 +227,16 @@
     visibility: hidden;
   }
 }
+
+.navy-bg {
+  background-color: #3385FF;
+  color: #ffffff;
+}
+
+.gray-section {
+  background: #f4f4f4;
+  /*padding: 60px 10px;*/
+  /*margin-bottom: 60px;*/
+}
+
+
