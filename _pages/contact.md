@@ -1,6 +1,6 @@
 ---
 layout: single
-permalink: /about
+permalink: /contact
 title: "About"
 ---
 

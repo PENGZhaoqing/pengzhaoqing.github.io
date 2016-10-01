@@ -5,13 +5,13 @@ main:
     url: /
 
   - title: "Blogs"
-    url: /posts
+    url: /posts/
 
   - title: "Projects"
-    url: /projects
+    url: /projects/
 
   - title: "Guestbook"
-    url: /guestbook
+    url: /guestbook/
 
   - title: "Contact me"
-    url: /contact
+    url: /contact/
