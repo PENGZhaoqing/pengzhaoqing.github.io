@@ -1,35 +1,23 @@
 ---
-layout: splash
+layout: archive
 permalink: /projects
-title: Projects
+title: "Projects"
 ---
 
-## [VIS Monitor Components](/2015/09/08/reusable-vis-component/)
+{% include base_path %}
+{% capture written_year %}'None'{% endcapture %}
 
-A series vis components for a secure system, to monitor different parts' states and confirm the system's health runnning.
+<!--{% for post in paginator.posts %}-->
+  <!--{% include archive-single.html %}-->
+<!--{% endfor %}-->
 
-`HTML5` `JavaScript` `D3.js`
+<!--{% include paginator.html %}-->
 
-<!-- ![](/assets/2015-09-08-reusable-vis-component-2.png) -->
-
-## [Hi-Travel](/2013/09/03/hitravel/)
-
-Windows Appstore Application.
-
-`Windows`
-
-<!-- ![](/assets/2013-09-03-hitravel-1.jpg) -->
-
-## [Variety Show Hot Spot Visualization](/variety-show-hot-spot-vis)
-
-`Cnsoft` `Competition`
-
-<!-- ![](http://hijiangtao.github.io/variety-show-hot-spot-vis/images/title.png) -->
-
-## [Dark-Tech](/2014/08/29/Dark-Tech-Theme/)
-
-A Responsive Hexo Theme.
-
-`Hexo`
-
-<!-- ![](/assets/2015-01-03-Goodbye-Old-Times.jpg) -->
+{% for project in site.projects %}
+  {% capture year %}{{ project.date | date: '%Y' }}{% endcapture %}
+  {% if year != written_year %}
+  <h2 id="{{ year | slugify }}" class="archive__subtitle">{{ year }}</h2>
+  {% capture written_year %}{{ year }}{% endcapture %}
+  {% endif %}
+  {% include archive-single.html %}
+{% endfor %}
