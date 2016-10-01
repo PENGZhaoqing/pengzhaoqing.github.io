@@ -1,13 +1,17 @@
 # main links links
 main:
-  - title: "Projects"
-    url: /projects
+
+  - title: "Home"
+    url: /
 
   - title: "Blogs"
     url: /posts
 
+  - title: "Projects"
+    url: /projects
+
   - title: "Guestbook"
     url: /guestbook
 
-  - title: "About"
-    url: /about
+  - title: "Contact me"
+    url: /contact
