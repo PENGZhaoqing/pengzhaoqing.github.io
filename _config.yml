@@ -11,9 +11,9 @@ title                    : "Here zhaoqing"
 title_separator          : "-"
 name                     : "Peng Zhaoqing"
 description              : "Personal blog."
-url                      : "https://pengzhaoqing.github.io"
+url                      : 'http://localhost:4000' #"https://pengzhaoqing.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "PENGZhaoqing/PENGZhaoqing.github.io"
+repository               : #"PENGZhaoqing/PENGZhaoqing.github.io"
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -112,7 +112,7 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       read_time: true
       comments: true
       share: true
@@ -134,11 +134,14 @@ defaults:
       layout: single
       author_profile: false
       share: true
+      read_time: true
+      comments: true
+      related: true
+
 
 collections:
   project:
     output: true
-    permalink: /projects/
 
 
 # Site Author
