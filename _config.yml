@@ -11,15 +11,16 @@ title                    : "Here zhaoqing"
 title_separator          : "-"
 name                     : "Peng Zhaoqing"
 description              : "Personal blog."
-url                      : 'http://localhost:4000' #"https://pengzhaoqing.github.io"
+url                      : "https://pengzhaoqing.github.io" #'http://localhost:4000'
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : #"PENGZhaoqing/PENGZhaoqing.github.io"
+repository               : "PENGZhaoqing/PENGZhaoqing.github.io"
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : "duoshuo"
-  duoshuo                : datablog
+  provider               : "custom"
+  duoshuo                :
+    project_name         : 'zhaoqingblog'
   disqus:
     shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
@@ -111,7 +112,7 @@ defaults:
       path: ""
       type: posts
     values:
-      layout: single
+      layout: single_blog
       author_profile: false
       read_time: true
       comments: true
@@ -132,7 +133,7 @@ defaults:
       type: projects
     values:
       layout: single
-      author_profile: false
+      author_profile: true
       share: true
       read_time: true
       comments: true
@@ -140,8 +141,10 @@ defaults:
 
 
 collections:
-  project:
+  projects:
     output: true
+    permalink: /:collection/:path
+
 
 
 # Site Author
@@ -253,6 +256,7 @@ gems:
   - jekyll-gist
   - jekyll-feed
   - jemoji
+  - jekyll-typogrify
 
 # mimic GitHub Pages with --safe
 whitelist:

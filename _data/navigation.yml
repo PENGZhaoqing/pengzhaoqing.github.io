@@ -7,11 +7,11 @@ main:
   - title: "Blogs"
     url: /posts/
 
-  - title: "Projects"
+  - title: "Research"
     url: /projects/
 
-  - title: "Guestbook"
-    url: /guestbook/
+  - title: "Message Board"
+    url: /message/
 
   - title: "Contact me"
     url: /contact/

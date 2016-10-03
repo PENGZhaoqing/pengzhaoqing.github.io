@@ -77,6 +77,7 @@
       {% endif %}
     </section>
   {% when "custom" %}
-    <section id="comments"></section>
+  <div class="ds-thread" data-thread-key="{{ page.id }}"
+       data-title="{{ page.title}}" data-url="{{ page.url }} "></div>
   {% endcase %}
 </div>

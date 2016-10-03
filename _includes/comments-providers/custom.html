@@ -1,15 +1,13 @@
 <!-- start custom comments snippet -->
 
-<h4>Leave a Comment</h4>
+{% if site.comments.duoshuo.project_name %}
 
-<!-- 多说评论框 start -->
-<div class="ds-thread" data-thread-key="{{ page.id }}"
-     data-title="{{ page.title}}" data-url="{{ page.url }} "></div>
+{% include base_path %}
 
 <!-- 多说评论框 end -->
 <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
 <script type="text/javascript">
-    var duoshuoQuery = {short_name: "zhaoqingblog"};
+    var duoshuoQuery = {short_name: "{{site.comments.duoshuo.project_name}}"};
     (function () {
         var ds = document.createElement('script');
         ds.type = 'text/javascript';
@@ -23,10 +21,7 @@
 
 <!-- 多说公共JS代码 end -->
 
-
-
-
-
-
-
 <!-- end custom comments snippet -->
+
+{% endif %}
+
