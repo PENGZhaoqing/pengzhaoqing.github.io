@@ -1,7 +1,7 @@
 ---
 date: 2015-11-10 
 title: Ruby－元编程和自定义访问器attr_accessor
-categories: Study_notes
+categories: 学习笔记
 tags: [ruby]
 ---
 

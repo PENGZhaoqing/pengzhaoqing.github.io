@@ -1,7 +1,7 @@
 ---
 date: 2015-11-19
 title: Ruby－Hash表的排序高级用法
-categories: Study_notes
+categories: 学习笔记
 tags: [ruby] 
 ---
 

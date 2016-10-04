@@ -1,7 +1,7 @@
 ---
 date: 2016-03-19
 title: 自建Oauth2协议服务器(Doorkeeper Gem)
-categories: Web_development
+categories: Web开发
 tags: [rails, oauth] 
 ---
 

@@ -1,7 +1,7 @@
 ---
 date: 2015-11-13
 title: Ruby－自定义迭代器与yield方法
-categories: Study_notes
+categories: 学习笔记
 tags: [ruby]
 ---
 

@@ -1,7 +1,7 @@
 ---
 date: 2016-05-24
 title: Rails部署云环境配置（Passenger＋Apache）
-categories: Web_development
+categories: Web开发
 tags: [rails] 
 ---
 
