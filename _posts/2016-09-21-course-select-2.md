@@ -3,6 +3,7 @@ date: 2016-09-21
 title: Rails Web应用开发实战－学生选课系统基础版(二)
 categories: Rails教程
 tags: [rails]
+layout: single-blog
 ---
 
 在上一篇教程中，我们在Cloud9中跑通了整个演示代码，下面我们将从零建立一个新的Rails应用。

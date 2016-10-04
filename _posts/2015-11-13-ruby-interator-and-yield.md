@@ -3,6 +3,7 @@ date: 2015-11-13
 title: Ruby－自定义迭代器与yield方法
 categories: 学习笔记
 tags: [ruby]
+layout: single-blog
 ---
 
 大家对于迭代器each_with_index应该不是很陌生：

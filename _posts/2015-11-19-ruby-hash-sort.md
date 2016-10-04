@@ -2,7 +2,8 @@
 date: 2015-11-19
 title: Ruby－Hash表的排序高级用法
 categories: 学习笔记
-tags: [ruby] 
+tags: [ruby]
+layout: single-blog
 ---
 
 **经常会遇到hash表中元素比较的问题，mark一下**

@@ -3,6 +3,7 @@ date: 2015-11-13
 title: Ruby－mixin机制和Java接口
 categories: 学习笔记
 tags: [ruby]
+layout: single-blog
 ---
 
 在ruby中，支持把模块mixin（混入）进类中，于是在这个类中我们能使用模块中定义的方法和变量。

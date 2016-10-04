@@ -2,7 +2,8 @@
 date: 2016-05-24
 title: Rails部署云环境配置（Passenger＋Apache）
 categories: Web开发
-tags: [rails] 
+tags: [rails]
+layout: single-blog
 ---
 
 **买了个阿里云的虚拟云主机ECS,在上面搭建Rails部署的生产环境(production)...**

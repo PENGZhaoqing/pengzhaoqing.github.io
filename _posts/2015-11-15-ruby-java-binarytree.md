@@ -2,7 +2,8 @@
 date: 2015-11-15 
 title: Ruby/Java - 两种语言的二叉排序树的实现和遍历
 categories: 学习笔记
-tags: [ruby,java] 
+tags: [ruby,java]
+layout: single-blog
 ---
 
 
