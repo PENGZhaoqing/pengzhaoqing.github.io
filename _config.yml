@@ -11,7 +11,8 @@ title                    : "Here zhaoqing"
 title_separator          : "-"
 name                     : "Peng Zhaoqing"
 description              : "Personal blog."
-url                      : "https://pengzhaoqing.github.io" #'http://localhost:4000'
+#url                      : "https://pengzhaoqing.github.io"
+url                      : 'http://localhost:4000'
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : #"PENGZhaoqing/PENGZhaoqing.github.io"
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
