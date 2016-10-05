@@ -112,7 +112,7 @@ defaults:
       path: ""
       type: posts
     values:
-      layout: single
+      layout: single-blog
       author_profile: false
       read_time: true
       comments: true
