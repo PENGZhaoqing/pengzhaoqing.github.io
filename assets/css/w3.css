@@ -182,7 +182,7 @@ textarea {
 /* End extract from normalize.css */
 html, body {
     /*font-family: Verdana, sans-serif;*/
-    font-size: 20px;
+    /*font-size: 20px;*/
     line-height: 1.5
 }
 
@@ -194,29 +194,29 @@ h1, h2, h3, h4, h5, h6, .w3-slim, .w3-wide {
     font-family: "Segoe UI", Arial, sans-serif
 }
 
-h1 {
-    font-size: 36px
-}
+/*h1 {*/
+    /*font-size: 36px*/
+/*}*/
 
-h2 {
-    font-size: 30px
-}
+/*h2 {*/
+    /*font-size: 30px*/
+/*}*/
 
-h3 {
-    font-size: 24px
-}
+/*h3 {*/
+    /*font-size: 24px*/
+/*}*/
 
-h4 {
-    font-size: 20px
-}
+/*h4 {*/
+    /*font-size: 20px*/
+/*}*/
 
-h5 {
-    font-size: 18px
-}
+/*h5 {*/
+    /*font-size: 18px*/
+/*}*/
 
-h6 {
-    font-size: 16px
-}
+/*h6 {*/
+    /*font-size: 16px*/
+/*}*/
 
 .w3-serif {
     font-family: "Times New Roman", Times, serif
