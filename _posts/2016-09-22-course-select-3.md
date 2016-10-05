@@ -3,7 +3,6 @@ date: 2016-09-22
 title: Rails Web应用开发实战－学生选课系统基础版(三)
 categories: Rails教程
 tags: [rails]
-layout: single-blog
 ---
 
 上次主要讲了MVC中的模型，此教程我们开始涉及控制器和视图。

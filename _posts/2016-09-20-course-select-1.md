@@ -3,7 +3,6 @@ date: 2016-09-20
 title: Rails Web应用开发实战－学生选课系统基础版(一)
 categories: Rails教程
 tags: [rails]
-layout: single-blog
 ---
 
 本教程基于中国科学院大学研究生课程（高级软件工程）。此教程做出的基础版[Demo](https://courseselect.herokuapp.com/)，代码位于[Github](https://github.com/PENGZhaoqing/CourseSelect)。 教程适合新入门的Ruby on Rails开发者，入门者可以在基础版上增加新的功能：

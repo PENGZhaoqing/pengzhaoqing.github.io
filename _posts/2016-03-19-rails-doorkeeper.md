@@ -3,7 +3,6 @@ date: 2016-03-19
 title: 自建Oauth2协议服务器(Doorkeeper Gem)
 categories: Web开发
 tags: [rails, oauth]
-layout: single-blog
 ---
 
 自建一个Oauth2的服务器（provider），使用了<a href="https://github.com/doorkeeper-gem/doorkeeper" style="color:cornflowerblue">doorkeeper gem</a>
