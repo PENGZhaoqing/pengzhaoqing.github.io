@@ -118,7 +118,6 @@ defaults:
       comments: true
       share: true
       related: true
-
   # _pages
   - scope:
       path: ""
@@ -126,7 +125,6 @@ defaults:
     values:
       layout: archive
       author_profile: true
-
   # _projects
   - scope:
       path: ""
@@ -243,7 +241,7 @@ sass:
 
 # Outputting
 #permalink: /:categories/:title/
-permalink: /:categories/:title/
+permalink: /:year/:month/:day/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
