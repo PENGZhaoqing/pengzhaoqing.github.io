@@ -12,15 +12,15 @@ And also supported by **Github Pages**, hosted directly from your GitHub reposit
 
 Before you start it, you should know about [Jekyll](https://jekyllrb.com/) and [Github Pages](https://pages.github.com/)
 
-All you need is to do: 
+### All you need is to do 
 
 1. Fork to your github, and then change the name of project to your name like `your_name.github.io`
 
 2. And here you go, your personal blog is already done !!!!!!! Try to visit `https://your_name.github.io`
 
-### config
+### And config a little
 
-And don't forget to change your personal info:
+Don't forget to change your personal info:
 
 1. Replace the personal info in  `_config.yml` and configure the data in `_data/` files, 
 
@@ -43,4 +43,4 @@ Fork this first, excuete:
 git clone https://github.com/your_github_username/your_name.github.io
 jekyll server 
 ```
-And visist `localhost:4000` in your browser, your personal blog is always there!!!
+And visist `http://localhost:4000` in your browser, your personal blog is always there!!!
