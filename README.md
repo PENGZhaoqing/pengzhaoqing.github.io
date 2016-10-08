@@ -8,17 +8,25 @@ And also supported by **Github Pages**, hosted directly from your GitHub reposit
 
 ## Usage 
 
-** You can fork this project and build your own personal blog **
+**You can fork this project and build your own personal blog**
 
 Before you start it, you should know about [Jekyll](https://jekyllrb.com/) and [Github Pages](https://pages.github.com/)
 
-All you need is to do
+All you need is to do: 
 
 1. Fork to your github, and then change the name of project to your name like `your_name.github.io`
 
 2. And here you go, your personal blog is already done !!!!!!! Try to visit `https://your_name.github.io`
 
-And Don't forget to change your personal info: Replace the personal info in  `_config.yml` and configure the data in `_data/` files, that's all !!!! Pretty easy ~
+### config
+
+And don't forget to change your personal info:
+
+1. Replace the personal info in  `_config.yml` and configure the data in `_data/` files, 
+
+2. that's all !!!!
+
+Pretty easy ~
 
 ## Customization 
 
