@@ -28,6 +28,8 @@ Don't forget to change your personal info:
 
 Pretty easy ~
 
+**Please Start it if you like!**
+
 ## Customization 
 
 If you want to custom this blog, please install and config the follwings in your local environment.
