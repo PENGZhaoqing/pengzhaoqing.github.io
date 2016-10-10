@@ -28,7 +28,7 @@ Don't forget to change your personal info:
 
 Pretty easy ~
 
-**Please Start it if you like!**
+**Star it if you like!!!**
 
 ## Customization 
 
