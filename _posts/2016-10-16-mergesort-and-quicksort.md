@@ -134,7 +134,7 @@ public class QuickSort {
 
 新建TimeCounter类，用来实例化两个算法类，并测试两个算法。size指定测试数组的长度，maximum 指定生成的数组中元素的最大值，注意：由于快排的数组最后一个数字要求最大，因此实际的数组长度是是size+1
 
-```
+``` java
 import java.util.Arrays;
 import java.util.Random;
 
