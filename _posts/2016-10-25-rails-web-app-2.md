@@ -1,6 +1,6 @@
 ---
-date: 2015-11-13
-title: Ruby－mixin机制和Java接口
+date: 2016-10-25
+title: Rails Web App Learning in action (2)--the basic version of students selective courses
 categories: Translation
 tags: [rails]
 ---
