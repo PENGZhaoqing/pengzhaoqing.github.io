@@ -52,7 +52,6 @@ Above configuration will generate new Rails App by default.
 ----------
 
 **If you have trouble understanding Rails framework, read the official guidelines—-[Simple Blog](http://guides.rubyonrails.org/getting_started.html)**
-------------------------------------------------------------------------
 
 ----------
 
@@ -65,7 +64,7 @@ The development process of Rails can be divided into the following steps: Firstl
 
 1.For developing a selective courses system, we definitely need a data table to store user's information, and another data table to store the information of courses, so we run the following command to create the user model and the course model.
 
-```
+``` ruby
 pengzhaoqing:~/workspace $ rails generate model course
 Running via Spring preloader in process 3251
       invoke  active_record
@@ -89,7 +88,7 @@ Running via Spring preloader in process 3262
 
 2.Now we open the file, `db/migrate/20160920163906_create_courses.rb`, and fill in following information:
 
-``` 
+``` ruby
 class CreateCourses < ActiveRecord::Migration
   def change
     create_table :courses do |t|
@@ -120,7 +119,7 @@ end
 
 3.Similarly, we open the file, `db/migrate/20160920163927_create_users.rb`, and fill in following information:
 
-```
+``` ruby
 class CreateUsers < ActiveRecord::Migration
   def change
     create_table :users do |t|
@@ -157,7 +156,7 @@ Besides, each course of one student only has one grade. There are three data ent
 Now, run `rails generate model grade` to create grade model:
 
 
-```
+``` ruby
 pengzhaoqing:~/workspace $ rails generate model grade
 Running via Spring preloader in process 1144
       invoke  active_record
@@ -170,7 +169,7 @@ Running via Spring preloader in process 1144
 
 Get in `db/migrate/20160921051153_create_grades.rb` to generate the corresponding field:
 
-```
+``` ruby
 class CreateGrades < ActiveRecord::Migration
   def change
     create_table :grades do |t|
@@ -204,7 +203,7 @@ end
 
 7.Now, we have completed the process of establishing the data fields of model. Then we need to convey the association relationship between these fields to the Rails framework, so that Rails can organize the association relationship between models automatically. Firstly, open `app/models/course.rb`, and enter:
 
-```
+``` ruby
 class Course < ActiveRecord::Base
 
   has_many :grades
@@ -225,7 +224,7 @@ end
 
 8.Next, open `app/models/grade.rb` and write:
 
-```
+``` ruby
 class Grade < ActiveRecord::Base
   belongs_to :course
   belongs_to :user
@@ -236,7 +235,7 @@ end
 
 9.Then open `app/models/user.rb` and write:
 
-```
+``` ruby
 class User < ActiveRecord::Base
 
   before_save :downcase_email
@@ -307,9 +306,9 @@ These two lines of codes both appoint one-to-many relationship with the course m
  - The methods defined later, such as `digest, new_token, user_remember, user_forget, user_authenticated? and downcase_email` are standard functions which are required to achieve the user login function. You can find more details [here](https://www.railstutorial.org/book/advanced_login).
 
 
-10. All models and their data migration files have been generated now, then we run data migration `rake db:migrate` to build data table. Seeing the following information means you have successfully completed our task.
+10.All models and their data migration files have been generated now, then we run data migration `rake db:migrate` to build data table. Seeing the following information means you have successfully completed our task.
 
-```
+``` ruby
 pengzhaoqing:~/workspace $ rake db:migrate
 == 20160920163906 CreateCourses: migrating ====================================
 -- create_table(:courses)
