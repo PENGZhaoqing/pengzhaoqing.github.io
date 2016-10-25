@@ -199,7 +199,7 @@ end
 
 
 
-> **It is important to note that the user model and course model associated with each other through grade model, because you can search all related course_id according to user_id, and vice versa. In other words, the many-to-many relationship between user model and course model had been achieved. **
+> **It is important to note that the user model and course model associated with each other through grade model, because you can search all related course_id according to user_id, and vice versa. In other words, the many-to-many relationship between user model and course model had been achieved.**
 
 7.Now, we have completed the process of establishing the data fields of model. Then we need to convey the association relationship between these fields to the Rails framework, so that Rails can organize the association relationship between models automatically. Firstly, open `app/models/course.rb`, and enter:
 
