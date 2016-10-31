@@ -3,6 +3,12 @@
   url: '/PENGZhaoqing/CourseSelect'
   img: 'assets/img/profile/rails.png'
   desc: 'This sample system is developed for the UCAS master course (Senior Software Engineering),which aiming to help beginners to learn RoR (Ruby on Rails).'
+  
+- name: 'Housepricing'
+  i18n: 'Housepricing'
+  url: '/PENGZhaoqing/Housepricing'
+  img: 'assets/img/profile/rails.png'
+  desc: 'A app to price the house in scientific way, which helps user to make better descision in buying or selling the houses'
 
 - name: 'CampusPortal'
   i18n: 'CampusPortal'
@@ -28,8 +34,3 @@
   img: 'assets/img/profile/rails.png'
   desc: 'CourseSelect_en extends the original CourseSelect with OAuth 2.0 protocol, aiming to demonstrate the interactions between web applications and CampusPortal'
 
-- name: 'scrapy-hoursepricing'
-  i18n: 'OnlineJudge'
-  url: '/PENGZhaoqing/scrapy-hoursepricing'
-  img: 'assets/img/profile/python.png'
-  desc: 'Utilizing A collaborative framework Scrapy for extracting the house data in Beijing from websites to evaluate house prices. In a fast, simple, yet extensible way. '
