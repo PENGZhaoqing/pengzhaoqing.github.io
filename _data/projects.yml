@@ -2,7 +2,7 @@
   i18n: 'CourseSelect'
   url: '/PENGZhaoqing/CourseSelect'
   img: 'assets/img/profile/rails.png'
-  desc: 'This sample system is developed for the UCAS master course (Senior Software Engineering),which aiming to help beginners to learn RoR (Ruby on Rails).'
+  desc: 'This sample system is developed for the UCAS master course (Senior Software Engineering), aiming to help beginners to learn Rails'
   
 - name: 'Housepricing'
   i18n: 'Housepricing'
