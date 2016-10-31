@@ -14,7 +14,7 @@
   i18n: 'CampusPortal'
   url: '/PENGZhaoqing/CampusPortal'
   img: 'assets/img/profile/rails.png'
-  desc: 'CampusPortal is a campus portals information system, developed to provide as unified info entrance for the faculties, students and application developers.'
+  desc: 'CampusPortal is a campus portals information system, developed to provide as unified entrance for the faculties, students and app developers.'
 
 - name: 'Here zhaoqing'
   i18n: 'Personal Blog'
@@ -26,11 +26,11 @@
   i18n: 'OnlineJudge'
   url: '/PENGZhaoqing/Ucas_OnlineJudge'
   img: 'assets/img/profile/django.png'
-  desc: 'A distributed online judge platform for helping beginners learn programming in Chinese Academy of Science, currently supporting languages: Java, C, C++'
+  desc: 'A distributed online judge platform for helping beginners learn programming in Chinese Academy of Science, currently supporting: Java, C, C++'
 
 - name: 'CourseSelect_en'
   i18n: 'OnlineJudge'
   url: '/PENGZhaoqing/CourseSelect_en'
   img: 'assets/img/profile/rails.png'
-  desc: 'CourseSelect_en extends the original CourseSelect with OAuth 2.0 protocol, aiming to demonstrate the interactions between web applications and CampusPortal'
+  desc: 'CourseSelect_en extends the original CourseSelect with OAuth 2.0 protocol, aiming to demonstrate the interactions between web apps and CampusPortal'
 
