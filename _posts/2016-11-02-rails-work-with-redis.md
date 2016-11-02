@@ -1,6 +1,6 @@
 ---
 date: 2016-11-02 
-title: Rails work with redis
+title: How Rails work with redis
 categories: 学习笔记
 tags: [rails redis]
 ---
