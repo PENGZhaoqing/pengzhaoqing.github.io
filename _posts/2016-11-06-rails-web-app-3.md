@@ -154,8 +154,7 @@ In addition, method called `params` can return all the data involved in a URL re
 
 After being processed by a method in the controller, user's request will be handed over to the corresponding view. The view generally consists of JS, CSS and HTML files.
 
-> <font color=#DC143C>If you have no idea about HTML, you can find more knowledge about it [here](http://www.w3school.com.cn/html/html_attributes.asp).
- <font>
+> <font color=#DC143C>If you have no idea about HTML, you can find more knowledge about it [here](http://www.w3school.com.cn/html/html_attributes.asp).<font>
 
 Here we use the front-end libraries of Bootstrap. Boostrap is designed for the back-end programmers and can help a programmer who is not good at the front-end to write a relatively good front-end. It is actually a CSS, JS library.
 
@@ -168,7 +167,7 @@ In the future, we will use the standard JS library called jQuery, which has enca
 
 ----------
 
-###<font color=#FF7F50> Please make sure that you have a certain knowledge of HTML and Bootstrap before looking at the following contents:<font>
+### <font color=#FF7F50> Please make sure that you have a certain knowledge of HTML and Bootstrap before looking at the following contents:<font>
 
 ----------
 
