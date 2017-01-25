@@ -1,5 +1,5 @@
 ---
-date: 2016-11-02 
+date: 2016-11-08 
 title: Redis在Rails中的应用实例
 categories: 学习笔记
 tags: [rails redis]
