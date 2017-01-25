@@ -4,17 +4,14 @@
 - name: Ruby
   percentage: 80
 
-- name: Matlab
-  percentage: 80
-
-- name: HTML/CSS
+- name: HTML/CSS/JS
   percentage: 75
 
-- name: jQuery
-  percentage: 70
-
 - name: Python
-  percentage: 50
-
-- name: Linux/Shell
-  percentage: 45
+  percentage: 70
+  
+- name: Linux Shell
+  percentage: 70
+  
+- name: Matlab
+  percentage: 65
