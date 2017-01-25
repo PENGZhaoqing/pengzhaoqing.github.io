@@ -5,7 +5,6 @@ categories: Translation
 tags: [rails]
 ---
 
-# Rails Web App Learning in action (2)--the basic version of students selective courses
 
 In last tutorial, the demo code has been run successfully in Cloud9. Now we will create a new Rails application from very beginning.
 
