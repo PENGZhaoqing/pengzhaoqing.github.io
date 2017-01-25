@@ -5,9 +5,7 @@ categories: Translation
 tags: [rails]
 ---
 
-#Rails Web App Learning in action (1)--the basic version of students selective courses
-
-TThis tutorial is based on the postgraduate course, named software development methodology, from University of Chinese Academy of Sciences. This tutorial can help you generate a basic version of the final project. At first, you must set up Rails environment successfully and run the basic framework. Secondly, you can add more functions based on it. We will continue supply guidance for your following project. The code of the basic version of the Demo in this tutorial has been uploaded to Github already. This tutorial is helpful for new developers of Ruby on Rails to add the following new functions on the basic version:
+This tutorial is based on the postgraduate course, named software development methodology, from University of Chinese Academy of Sciences. This tutorial can help you generate a basic version of the final project. At first, you must set up Rails environment successfully and run the basic framework. Secondly, you can add more functions based on it. We will continue supply guidance for your following project. The code of the basic version of the Demo in this tutorial has been uploaded to Github already. This tutorial is helpful for new developers of Ruby on Rails to add the following new functions on the basic version:
 
  - Deal with course conflict and control the student number
  - Count credit points, degree course, etc.
