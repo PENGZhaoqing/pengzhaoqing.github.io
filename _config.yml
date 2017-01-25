@@ -7,9 +7,9 @@
 
 # Site Settings
 locale                   : "en"
-title                    : "Here zhaoqing"
+title                    : "Here Dude"
 title_separator          : "-"
-name                     : "Peng Zhaoqing"
+name                     : "Zhaoqing Peng"
 description              : "Personal blog."
 url                      : "https://pengzhaoqing.github.io"
 #url                      : 'http://localhost:4000'
@@ -148,12 +148,12 @@ collections:
 
 # Site Author
 author:
-  name             : "Peng Zhaoqing"
+  name             : "Zhaoqing Peng"
   avatar           : "profile.jpg"
-  bio              : "重度IT患者,动漫死宅,战地控"
+  bio              : "重度IT患者，动漫死宅，战地狗"
   location         : "Beijing, China"
   email            : "ppp8300885@gmail.com"
-  desc             : "A software engineering student with experience of website development in UCAS. Current focusing on research in Deep Reinforcement Learning"
+  desc             : "A normal software engineering student in UCAS. </br> Interests in Animations and Battlefield"
   uri              :
   bitbucket        :
   codepen          :
