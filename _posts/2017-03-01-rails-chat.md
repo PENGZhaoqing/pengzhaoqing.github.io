@@ -28,7 +28,7 @@ tags: [rails]
 
 1. 首先加入render_sync等库，编辑Gemfile文件，加入以下
 
-	```
+	``` ruby
 	gem 'faye'
 	gem 'thin', require: false
 	gem 'render_sync'
@@ -36,7 +36,7 @@ tags: [rails]
 2. 创建User，Message，Chat，FriendShip四个模型，之间的关系分别为：
 
 
-	```
+	``` ruby
 	class Chat < ActiveRecord::Base
 	  has_and_belongs_to_many :users
 	  has_many :messages, :dependent => :destroy
@@ -44,7 +44,7 @@ tags: [rails]
 	```
 
 
-	```
+	``` ruby
 	class Friendship < ActiveRecord::Base
 	  belongs_to :user
 	  belongs_to :friend, :class_name => "User"
@@ -52,7 +52,7 @@ tags: [rails]
 	```
 
 
-	```
+	``` ruby
 	class Message < ActiveRecord::Base
 	  belongs_to :user
 	  belongs_to :chat
@@ -63,7 +63,7 @@ tags: [rails]
 	```
 
 
-	```
+	``` ruby
 	class User < ActiveRecord::Base
 	
 	  has_many :messages
@@ -81,7 +81,7 @@ tags: [rails]
 
 3. 编写各个模型的migrate文件，这里不贴出来，详细请看[这里](https://github.com/PENGZhaoqing/RailsChat/tree/master/db/migrate)，创建seed.rb文件，写入初始数据：
 
-	```
+	``` ruby
 	(1..100).each do |index|
 	  User.create(
 	      name: Faker::Name.name,
@@ -102,9 +102,9 @@ tags: [rails]
 
 5. 这里主要讲解Render_sync库的用法，在ChatsController的show方法的视图中，这两句起到了推送实时信息的功能：
 
-	```
-	                <%= sync partial: 'message_row', collection: Message.by_chat(@chat), refetch: true %>
-	                <%= sync_new partial: 'message_row', resource: Message.new, scope: @chat, refetch: true %>
+	``` ruby
+	<%= sync partial: 'message_row', collection: Message.by_chat(@chat), refetch: true %>
+	<%= sync_new partial: 'message_row', resource: Message.new, scope: @chat, refetch: true %>
 	```
 
  -  `refetch: true`选项能决定推送的方式为ajax
@@ -113,8 +113,8 @@ tags: [rails]
 
 	局部视图文件需要位于`app/views/sync/messages/refetch/_message_row.html.erb`才能生效，这个局部视图负责就是每条消息的显示，例如消息的主题，发送人和发送时间，简化后为：
 
-	```
-	<p>
+	``` ruby
+	<p> 
 	<%= message.user.name %>
     <%= message.created_at.to_formatted_s(:db) %>
 	<%= message.body %>
@@ -123,7 +123,7 @@ tags: [rails]
 
 6. 最重要的为MessagesController的create方法，这个方法接受两个参数，一个是发送的message，一个是聊天室的id，创建发送的message后，将此message与当前聊天室关联，然后调用sync_new方法同步推送此message，推送的范围为此聊天室，最后重定向至此聊天室 
 
-	```
+	``` ruby
 	class MessagesController < ApplicationController
 	  ...
 	  
@@ -144,7 +144,7 @@ tags: [rails]
 
 7.  最后编辑聊天室中的发送框即可，在ChatsController的show方法视图下，加入：
 
-	```
+	``` ruby
 	<%= form_for @new_message, remote: true do |f| %>
 	    <div class="input-group">
 	      <%= f.text_field :body, class: "form-control input-sm", placeholder: "Type your message here..." %>
@@ -176,7 +176,7 @@ tags: [rails]
 
 1. Fork项目，https://github.com/PENGZhaoqing/RailsChat
 
-  ```
+  ``` 
   git clone https://github.com/your_user_name/RailsChat
   cd RailsChat
   bundle install
@@ -195,7 +195,7 @@ tags: [rails]
 
 1. 若本机的ip地址为192.168.0.14（使用`ifconfig`查看），那么需要将config/sync.yml中的localhost全改为此ip地址，例如
  
- ```
+ ``` ruby
   development:
     server: "http://192.168.0.14:9292/faye"
     adapter_javascript_url: "http://192.168.0.14:9292/faye/faye.js"
