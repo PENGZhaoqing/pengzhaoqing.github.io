@@ -1,9 +1,10 @@
 ---
 date: 2017-03-01
-title: [Rails应用实战]WebChat的敏捷开发
+title: Rails的WebChat的敏捷开发
 categories: 学习笔记
 tags: [rails]
 ---
+
 
 即时通讯的应用如微信WeChat大家一定很熟悉，那么今天就来详解一下如何用Rails快速开发一款网页版微信（网页版聊天室）
 
