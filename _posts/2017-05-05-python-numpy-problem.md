@@ -1,4 +1,3 @@
-Python numpy在slide的过程中也会有对象传递，也就是地址传递，并不是直接copy过去，这个问题困扰我一天了，详情见下例，c数组中的第一个元素随着第二个元素的增加而改变了．
 
 ---
 date: 2017-05-05
@@ -6,6 +5,9 @@ title:  Python numpy中的对象传递问题
 categories: 学习笔记
 tags: [python]
 ---
+
+Python numpy在slide的过程中也会有对象传递，也就是地址传递，并不是直接copy过去，这个问题困扰我一天了，详情见下例，c数组中的第一个元素随着第二个元素的增加而改变了．
+
 
 解决方案是用`c.append(np.array(a[1]))`，将`a[1]`用`np.array()`方法重新申明为numpy数组，因为`np.array()`默认copy矩阵中的元素再创建一个新的numpy.ndarray对象，但是与之很相近的`np.asarray()`则不copy，这两个方法在使用的时候要注意了，关于`np.asarray()`和`np.array()`的区别，详情见[asarray vs array](http://stackoverflow.com/questions/14415741/numpy-array-vs-asarray)
 
