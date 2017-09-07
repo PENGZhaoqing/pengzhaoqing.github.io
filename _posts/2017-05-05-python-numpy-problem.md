@@ -1,10 +1,10 @@
-
 ---
 date: 2017-05-05
 title:  Python numpy中的对象传递问题
 categories: 学习笔记
 tags: [python]
 ---
+
 
 Python numpy在slide的过程中也会有对象传递，也就是地址传递，并不是直接copy过去，这个问题困扰我一天了，详情见下例，c数组中的第一个元素随着第二个元素的增加而改变了．
 
