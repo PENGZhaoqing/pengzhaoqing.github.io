@@ -1,10 +1,9 @@
 ---
 date: 2017-09-15 
-title: [天池智慧交通预测挑战赛]新手向的时间序列预测解决方案-前Top2%
+title: 新手向的时间序列预测解决方案-前Top2%
 categories: 学习笔记
 tags: [python]
 ---
-
 
 本博客分享新人第一次参加天池比赛的实况记录，比较完整地给出了数据预处理，缺失值补全，特征分析过程以及训练和交叉验证的注意事项，适合数据挖掘新人找到解题思路，全程没有调参，没有模型融合，只凭一手简单的特征和xgboost，最后止步41/1716，基本上可以作为时间序列预测类的比赛的baseline．完整代码在[Github](https://github.com/PENGZhaoqing/TimeSeriesPrediction)
 
